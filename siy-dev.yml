@@ -3,4 +3,4 @@ token:
   secret: user_token
 
 gateway:
-  ip: localhost
+  ip: localhost``
