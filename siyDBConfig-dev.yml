@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/springdata
     username: njj
-    password: '{cipher}ca58ef669918335431775f21112e309f42244b0aad64062199a1edc6318c97d6'
+    password: '{cipher}AQAJL8p/HMj0ChudM1nkYjtgJBWh+4ebZUqs7bbuTzthQ1Afhj8hNxgenO9D/3AISaNT7nnUq3Nk43Q9N2Tjd31N6lXekzrzYiNrkUXYvtWOyUA+l1QRuxaOYY4HhlrElBTn34Q+8o1PkrfMQslYRdP3kKFRSlaCrDB0fuXoa8DCGER0qgozu7dx5yP3wguc/QJFryXNXwy1ofegTeBE6HGsw3etP9zurTkH89cU3S3e2/WDnETLDEcoZeakGbBnoFj90tRCR/iL1A06Pl0je40UBtgrB1sEjMwtG39jI0BH/WQo/VPFxUlYmnLbAauLk2U+oB6P9crxTuRO08gpMhFKZrw51R6D/W2NcOrOvGZKCYRtT9VhwOry1c3dtioGIt8='
 
   jpa:
     hibernate:
