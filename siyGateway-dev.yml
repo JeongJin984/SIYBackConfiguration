@@ -1,0 +1,6 @@
+token:
+  expiration_time: 5
+  secret: '{cipher}AQAuIo0MIOnP6WOjjL6FQ5vYp+4//yE09no0eoPKUqLN1OhohWpfiECj34rwD34IeXk0sK4HhyS96uRLDSeBsaAmcyWLv0jZAyvdDbp1Zss07ptJoVc/jnMhtNPC4/hPMkYkuzGi+AArYOSQfyBYO009BuIfXrhNjnFhNuZpboDmzBPMiY735yIRuf+gUvn5nI8PbcKF1254rRuN6+xuJo592MnHtEmeHZxOqxQaVNnoDE2wzro7fvF6Kzr9OPm+hxCSGVCXwpL+7hque2n7M7a2NuQVcBvC2X8HL+L4nwkRZbC64y5Hhj/kLpDxdKIxFe6umzpl9hl/mqZ03Tq8vMHWW1J6menYveU1SQyuoJ8l04ZUbbZKoMisxX24LS1oXF4='
+
+gateway:
+  ip: localhost
