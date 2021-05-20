@@ -5,20 +5,33 @@ token:
 gateway:
   ip: localhost
 
+# spring:
+#   datasource:
+#     url: jdbc:postgresql://localhost:5432/springdata
+#     username: njj
+#     password: '{cipher}AQAJL8p/HMj0ChudM1nkYjtgJBWh+4ebZUqs7bbuTzthQ1Afhj8hNxgenO9D/3AISaNT7nnUq3Nk43Q9N2Tjd31N6lXekzrzYiNrkUXYvtWOyUA+l1QRuxaOYY4HhlrElBTn34Q+8o1PkrfMQslYRdP3kKFRSlaCrDB0fuXoa8DCGER0qgozu7dx5yP3wguc/QJFryXNXwy1ofegTeBE6HGsw3etP9zurTkH89cU3S3e2/WDnETLDEcoZeakGbBnoFj90tRCR/iL1A06Pl0je40UBtgrB1sEjMwtG39jI0BH/WQo/VPFxUlYmnLbAauLk2U+oB6P9crxTuRO08gpMhFKZrw51R6D/W2NcOrOvGZKCYRtT9VhwOry1c3dtioGIt8='
+
+#   jpa:
+#     hibernate:
+#       ddl-auto: update
+#     database-platform: "org.hibernate.dialect.PostgreSQLDialect"
+#     properties:
+#       hibernate:
+#         format_sql: true
+#         show_sql: true
+#         jdbc:
+#           lob:
+#             non_contextual_creation: true
+
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/springdata
-    username: njj
-    password: '{cipher}AQAJL8p/HMj0ChudM1nkYjtgJBWh+4ebZUqs7bbuTzthQ1Afhj8hNxgenO9D/3AISaNT7nnUq3Nk43Q9N2Tjd31N6lXekzrzYiNrkUXYvtWOyUA+l1QRuxaOYY4HhlrElBTn34Q+8o1PkrfMQslYRdP3kKFRSlaCrDB0fuXoa8DCGER0qgozu7dx5yP3wguc/QJFryXNXwy1ofegTeBE6HGsw3etP9zurTkH89cU3S3e2/WDnETLDEcoZeakGbBnoFj90tRCR/iL1A06Pl0je40UBtgrB1sEjMwtG39jI0BH/WQo/VPFxUlYmnLbAauLk2U+oB6P9crxTuRO08gpMhFKZrw51R6D/W2NcOrOvGZKCYRtT9VhwOry1c3dtioGIt8='
-
+    url: jdbc:mariadb://localhost:3306/mydb
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: pass
   jpa:
+    open-in-view: false
+    generate-ddl: true
+    show-sql: true
     hibernate:
-      ddl-auto: update
-    database-platform: "org.hibernate.dialect.PostgreSQLDialect"
-    properties:
-      hibernate:
-        format_sql: true
-        show_sql: true
-        jdbc:
-          lob:
-            non_contextual_creation: true
+      ddl-auto: create
